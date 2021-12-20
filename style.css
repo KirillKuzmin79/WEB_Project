@@ -198,6 +198,7 @@ filter: blur(3px);
   background-color:#fff;
   height: 300px;
   width: 250px;
+  padding: 10px;
   position: relative;
   z-index: 3;
   border-radius: 5px;
