@@ -383,6 +383,12 @@ filter: blur(3px);
    border-radius: 5px;
 }
 
+.last_case_title{
+  margin-top: 60px;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
 .last_case img{
   border-radius: 5px;
   border: 5px,5px,5px,5px;
