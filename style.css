@@ -282,7 +282,7 @@ filter: blur(3px);
 .priced_type {
   margin-bottom: 50px;
   padding-bottom: 30px;
-  border-bottom: 3px solid #e6e6e7;
+  border-bottom: 3px solid #e6e6e6;
   font-size: 22px;
   font-weight: bold;
   color: #f14d32;
@@ -355,13 +355,12 @@ filter: blur(3px);
   line-height: 1.4;
 }
 
-.member{
 
-}
 .team_title{
   margin-top: 60px;
   font-size: 24pt;
   font-weight: bold;
+  text-align: center;
 }
 
 .member_name{
@@ -377,16 +376,18 @@ filter: blur(3px);
   text-align: center;
 }
 
-.case{
-   height: 450px;
-   overflow: hidden;
-   border-radius: 5px;
+.last_kase_title{
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.last_case_title{
-  margin-top: 80px;
-  font-size: 24pt;
-  font-weight: bold;
+.case{
+  height: 450px;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 .last_case img{
@@ -399,15 +400,37 @@ filter: blur(3px);
   height: 100%;
   left: -250px;
 }
-.case_background {
+
+.case_background2 img{
+  position: absolute;
+  z-index: -5;
+  height: 100%;
+  left: -170px;
 }
 
+
 .case_text{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 35px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 35px 20px;
+}
+
+.case_text2{
+  margin-top: 30px;
+}
+
+.case_date{
+  color: #050c33;
+  opacity: .5;
+  font-size: 12px;
+}
+
+.case_date_w{
+  color: #fff;
+  opacity: .5;
+  font-size: 12px;
 }
 
 .case_title_w{
@@ -415,8 +438,296 @@ filter: blur(3px);
     color: #fff;
 }
 
+.case_info{
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.case_info a{
+  color: #337ab7;
+}
 .case_title_b{
-    font-weight: bold;
+  font-weight: bold;
+}
+
+.rewiews_background_svg{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -20;
+}
+
+.rewiews{
+  margin-top:30px ;
+  margin-bottom:60px ;
+}
+
+.rewiews_title{
+  position: relative;
+  top:75px ;
+  font-size: 42px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rewiews_background1{
+  background: #fff;
+  opacity: .34;
+  border: 1px solid rgba(0,0,0,.1);
+  box-shadow: 0 4px 60px rgb(162 162 162 / 25%);
+  border-radius: 5px;
+  position: absolute;
+  top: 158px;
+  bottom: -160px;
+  left: 128px;
+  right: 128px;
+  z-index: 4;
+
+}
+
+.rewiews_background2{
+  background: #fff;
+  opacity: .5;
+  border: 1px solid rgba(0,0,0,.1);
+  box-shadow: 0 4px 60px rgb(162 162 162 / 25%);
+  border-radius: 5px;
+  position: absolute;
+  top: 190px;
+  bottom: -160px;
+  left: 64px;
+  right: 64px;
+  z-index: 5;
+}
+
+.rewiews_block{
+  position: relative;
+  top: 160px;
+  z-index: 10;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.1);
+  box-shadow: 0 4px 60px rgb(162 162 162 / 25%);
+  border-radius: 5px;
+  padding: 66px 0 66px 68px;
+  height: 100%;
+}
+
+.rewiew_logo{
+  margin-bottom: 40px;
+}
+
+.rewiews_slider_content{
+  border-right: 2px solid #cdcdcd;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.rewiew_info{
+  margin-top:30px ;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #838b9c;
+}
+
+.rewiew_info a{
+  text-decoration: underline;
+  color: #050c33;
+}
+  
+.rewiews_slider .slick-prev:before,
+.rewiews_slider .slick-next:before {
+  opacity: .0;
+  display: none;
+}
+
+.rewiews_slider .slick-next{
+  right: 8%;
+}
+
+.rewiews_slider .slick-prev{
+  left: 72%;
+  z-index: 40;;
+}
+
+
+
+ .rewiews_slider .slick-arrow.slick-next {
+    content: '';
+    background: url(pictures/rewiews_slider_arrow-right.svg) no-repeat center;
+    background-size: contain;
+}
+
+ .rewiews_slider .slick-arrow.slick-prev {
+    content: '';
+    background: url(pictures/rewiews_slider_arrow-left.svg) no-repeat center;
+    background-size: contain;
+}
+
+.rewiew_slide_number{
+  margin: auto;
+  text-align: center;
+  color: #e0e0e0;
+  font-size: 28px;
+}
+
+.rewiew_slide_number_cur{
+  display: inline;
+  color: #050c33;
+}
+
+.worked_with_us_title{
+  margin-top: 300px;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.worked_with_us_info{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.worked_with_us_slider1 img{
+  border-radius: 5px;
+  border:3px solid #e6e6e6;
+  overflow: hidden;
+}
+
+.worked_with_us_slider2 img{
+  border-radius: 5px;
+  border:3px solid #e6e6e6;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  position: relative;
+  left: -130px;
+  top: 0px;
+}
+
+  .worked_with_us .slick-slide img {
+  width: 100%;
+}
+
+  .worked_with_us .slick-slide {
+  margin: 0px 5px;
+}
+
+ .worked_with_us .slick-next {
+  right: 0px;
+}
+
+
+.worked_with_us .slick-next:before {
+  display: none;
+}
+
+.FAQ_title{
+  margin-top: 110px;
+  margin-bottom: 50px;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.FAQ_answer{
+  border-color: #f14d34;
+  border: 3px solid #f14d34;
+  border-top: none;
+
+}
+
+.FAQ_answer ul{
+  padding-left: 17px;
+}
+
+.FAQ_accordion .active{
+  border-color: #f14d34;
+  color: #f14d34;
+  border: 3px solid #f14d34;
+  border-bottom: none;
+  top: 10px;
+}
+
+.FAQ_qestion, .FAQ_answer{
+  border-radius: 0;
+  box-shadow: none;
+  position: relative;
+  padding: 10px 12px 10px 30px;
+  transition: border-color .35s;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.FAQ_qestion_number{
+  position: absolute;
+  font-weight: bold;
+  font-size: 12px;
+  color: #828a9b;
+  left: 14px;
+  top: 16px;
+
+}
+
+footer{
+  margin-top: 45px;
+
+  background: linear-gradient(
+254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),url(pictures/footer1.svg) no-repeat top center,url(pictures/footer2.svg) no-repeat bottom right,#040613;
+  color: #fff;
+  font-family: Montserrat;
+}
+
+.footer_top{
+  padding-top: 35px;
+}
+
+.footer_title{
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.215;
+  margin-bottom: 20px;
+}
+
+.footer_content{
+  line-height: 1.55;
+  font-size: 14px;
+  color: rgba(256,256,256,.7);
+  margin-bottom: 140px;
+}
+
+.footer_content_phone img,
+.footer_content_mail img{
+  margin-right: 20px;
+}
+
+.footer_content_phone,
+.footer_content_mail a{
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer_content_phone{
+  margin-bottom: 10px;
+}
+
+.footer_content_mail{
+  margin-bottom: 105px;
+}
+
+.footer_content_mail a{
+  text-decoration: underline;
+}
+
+.footer_bottom{
+    border-top: 1px solid rgba(256,256,256,.3);
+}
+
+.footer_bottom_content{
+  padding-top: 56px;
+  padding-bottom: 36px;
 }
 
 @media screen and (max-width: 785px){
